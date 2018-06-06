@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/Cellar/node/9.11.1/bin/node /usr/local/Cellar/yarn/1.6.0/libexec/bin/yarn.js install express
+
+PATH: 
+  /Users/wesleyparr/Desktop/google-cloud-sdk/bin:/users/wesleyparr/.rvm/gems/ruby-2.3.4/bin:/users/wesleyparr/.rvm/gems/ruby-2.3.4@global/bin:/users/wesleyparr/.rvm/rubies/ruby-2.3.4/bin:/Users/wesleyparr/.cargo/bin:/Users/wesleyparr/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/wesleyparr/.rvm/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  9.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/wesleyparr/github/graph/graphQL/graph/graphql-playlist/server/package.json: Unexpected token E in JSON at position 120
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "test": "echo "Error: no test specified" &&exit1"
+    },
+    "author": "Wesley Parr",
+    "license":"ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
